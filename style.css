@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     
 }
 
@@ -20,8 +20,23 @@ li {
     color: #4e9afd;
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
 }
 
 h1 {
     color: royalblue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: red underline;
+}
+
+div {
+    align-items:center;
+    justify-content: center;
+    border: solid #4e9afd;
+    display: flex;
+}
+
+input {
+    margin-left: 30px;
 }
